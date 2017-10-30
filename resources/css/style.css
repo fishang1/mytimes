@@ -9,6 +9,7 @@ h2 {
   font-size: 30px;
   font-weight: bold;
   font-style: normal;
+  margin-top: 0;
 }
 
 h3 {
@@ -90,9 +91,9 @@ h3 {
   width: 240px;
 }
 
-/*.main-content div {
-  border: 1px solid black;
-}*/
+.story {
+  margin-top: 15px;
+}
 
 .story p {
   font-family: Georgia;
@@ -158,4 +159,40 @@ h3 {
   font-size: 12px;
   color: DimGray;
   border-bottom: 1px solid black;
+}
+
+/* Footer */
+
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+}
+
+.footer span {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+.footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.footer a {
+  color: black;
+  display: inline-block;
+  padding: 20px 10px;
 }
