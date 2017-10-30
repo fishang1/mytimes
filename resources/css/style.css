@@ -1,3 +1,9 @@
+/* Global */
+
+body {
+  margin: 0;
+}
+
 /* Header */
 
 .header {
@@ -38,4 +44,36 @@
 
 .header-nav-item a {
   color: black;
+}
+
+/* Main Content */
+
+.main-content {
+  display: flex;
+  padding-top: 116px;
+  justify-content: space-between;
+  margin: 0 auto 78px auto;
+  width: 1232px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.large {
+  width: 630px;
+}
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+}
+
+.main-content div {
+  border: 1px solid black;
 }
